@@ -181,7 +181,7 @@ const TopBanner: React.FC<Props> = memo(() => {
             ref={bannerRef}
             effect="fade"
             dots={false}
-            beforeChange={(current, next) => {
+            beforeChange={(_, next) => {
               setCurrentIndex(next)
             }}
           >
