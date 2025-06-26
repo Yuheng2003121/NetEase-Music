@@ -1,4 +1,4 @@
-import { BASE_URL, TIME_OUT } from './config'
+import {  TIME_OUT } from './config'
 import HYRequest from './request'
 
 const hyRequest = new HYRequest({
