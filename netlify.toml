@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/api/*"
+  to = "http://codercba.com:9002/:splat"
+  status = 200
+  force = true
